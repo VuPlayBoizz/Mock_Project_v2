@@ -21,7 +21,6 @@
 
 ## 🏗️ Kiến trúc hệ thống
 
-```
 ![Kiến trúc triển khai](https://github.com/user-attachments/assets/f9189909-81c2-4555-bfec-39132d3aa248)
 
 ## 🚀 Cài đặt và triển khai
@@ -46,13 +45,7 @@ terraform apply
 cd ../EKS_Cluster
 terraform init
 terraform apply
-```
 
----
-
-### Bước 2: Triển khai Jenkins CI/CD Pipeline
-
-```bash
 cd ../Jenkins_Server
 terraform init
 terraform apply
@@ -60,7 +53,10 @@ terraform apply
 
 ---
 
-### Bước 3: Deploy các dịch vụ microservices lên Kubernetes
+
+---
+
+### Bước 2: Deploy các dịch vụ microservices lên Kubernetes
 
 ```bash
 kubectl apply -f Deployment/API-Gateway/
@@ -111,10 +107,24 @@ Mork-Project/
 
 ## 🧪 Testing
 
+### Database Service
+
+```bash
+cd Code/database-service
+./mvnw test
+```
+
 ### Backend Service
 
 ```bash
 cd Code/backend-service
+./mvnw test
+```
+
+### API Gateway
+
+```bash
+cd Code/api-gateway
 ./mvnw test
 ```
 
