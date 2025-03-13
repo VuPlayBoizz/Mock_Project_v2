@@ -34,6 +34,8 @@
 - Jenkins Server (hoặc deploy qua module Terraform)
 
 ---
+![Kiến trúc tổng thể](https://github.com/user-attachments/assets/aee6ded0-2286-400f-be3a-dc541ba9841b)
+
 
 ### Bước 1: Triển khai hạ tầng AWS EC2 / EKS
 
@@ -47,6 +49,10 @@ terraform init
 terraform apply
 
 cd ../Jenkins_Server
+terraform init
+terraform apply
+
+cd ../VPC_TransitGateway
 terraform init
 terraform apply
 ```
