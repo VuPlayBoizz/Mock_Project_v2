@@ -3,7 +3,7 @@
 
 ## 📚 Giới thiệu
 
-**Mork Project** là một hệ thống microservices triển khai trên nền tảng **AWS**, sử dụng **Terraform**, **Docker**, và **Kubernetes**, tích hợp CI/CD với **Jenkins**. Dự án mô phỏng quy trình triển khai hệ thống backend, frontend và database hiện đại, tối ưu cho quy mô doanh nghiệp hoặc các bài toán hệ thống phân tán.
+**Mock Project** là một hệ thống microservices triển khai trên nền tảng **AWS**, sử dụng **Terraform**, **Docker**, và **Kubernetes**, tích hợp CI/CD với **Jenkins**. Dự án mô phỏng quy trình triển khai hệ thống backend, frontend và database hiện đại, tối ưu cho quy mô doanh nghiệp hoặc các bài toán hệ thống phân tán.
 
 ---
 
